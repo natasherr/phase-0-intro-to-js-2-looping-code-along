@@ -11,18 +11,6 @@ function writeCards(arrayName, eventName){
 }
 
 
-// const gifts = ['bear', 'book', 'drone']
-
-// function wrapGifts(gifts){
-//     let i =0;
-//     while (i<gifts.length) {console.log(`A message ${gifts[i]} just testing!`);
-//     i++ 
-//     }
-//     return gifts
-// }
-
-// wrapGifts(gifts)
-
 function countDown(number){
     if(number<0) {console.log("Input a positive integer!")};
 
@@ -30,6 +18,7 @@ function countDown(number){
     while(x>=0) {console.log(x);
     x--
     }
+    return number
 }
 
 
